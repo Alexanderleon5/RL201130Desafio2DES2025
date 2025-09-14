@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.9" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RL201130Desafio2.Common\RL201130Desafio2.Common.csproj" />
+    <ProjectReference Include="..\RL201130Desafio2.Entities\RL201130Desafio2.Entities.csproj" />
   </ItemGroup>
 
 </Project>
