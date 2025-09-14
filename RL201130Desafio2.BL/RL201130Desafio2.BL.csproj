@@ -1,18 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RL201130Desafio2.BL\RL201130Desafio2.BL.csproj" />
     <ProjectReference Include="..\RL201130Desafio2.Common\RL201130Desafio2.Common.csproj" />
     <ProjectReference Include="..\RL201130Desafio2.DAL\RL201130Desafio2.DAL.csproj" />
     <ProjectReference Include="..\RL201130Desafio2.Entities\RL201130Desafio2.Entities.csproj" />
